@@ -10,7 +10,7 @@ type InsightResponse =
 type AnnotateBody =
   paths["/insights/annotate"]["post"]["requestBody"]["content"]["application/x-www-form-urlencoded"];
 
-export type RobotoffQuestion = {
+export type Question = {
   insight_id: string;
   question: string;
   image_url?: string;
